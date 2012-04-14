@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<plugins>
+	<plugin>
+		<name>StreetLamps</name>
+		<version>0.8.2</version>
+		<link>http://streetlamps.isfoolish.net/downloads/StreetLamps.jar</link>
+	</plugin>
+</plugins>

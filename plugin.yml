@@ -1,0 +1,19 @@
+name: LightPoles
+main: net.Dockter.LightPoles.LightPoles
+author: Dockter
+description: LightPoles
+version: 1.0
+commands:
+   LightPoles:
+        description: Display enabled commands, loaded lights, building materials and activated modes.
+        usage: /LightPoles help|list [world]|materials|modes        
+permissions:
+    lightpoles.user:
+        description: enables help and listing of loaded lamps, building materials and activated modes
+        default: not op
+    lightpoles.advancedUser:
+        description: additionally enables connect, info, on, off and update
+        default: false
+    lightpoles.admin:
+        description: enables all commands
+        default: op

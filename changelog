@@ -1,0 +1,128 @@
+Version v0.8.2
+
+	update for new RB (1185)
+	changed event Priorities from Normal to Monitor
+
+Version v0.8.1.1
+
+	hotfix on LampController
+
+Version v0.8.1
+
+	Lamps have to be powered while building (again) to detect the right pattern
+	added removeTorchAfterConstruction to config
+
+Version v0.8
+
+	removed lamplist form config and added separate switches for each lamp
+	added new mode: detectRepeater (false per default)
+	added new mode: pureBulb (false per default)
+	fixed bottom not reacting to manually at all
+	added command: "StreetLamps save"
+	added command: "StreetLamps set <on|off> <id>"
+	added command: "StreetLamps on|off|update"
+	added command: "StreetLamps power|repeater|weather|manually|daytime|cluster [size]"
+	added command: "StreetLamps list [world]"
+	added command: "StreetLamps materials"
+	added command: "StreetLamps modes"
+	added command: "StreetLamps bruteforce <worldname> [silent] [start stop]"
+	improved power detection of ceiling and sconce
+	toggle lamps by right clicking on a lamp
+	lamps can be connected to controllers
+	implemented role based permissions
+	removed disableOnerror
+
+Version v0.7.1
+
+	enabled cluster mode again (after v0.7)
+	added new pattern: tube
+
+Version v0.7
+
+	added MultiWorld support
+
+Version v0.6
+
+    added new mode: cluster
+    when powermode is off the lamp does not require power to build
+    changed interna of poles, bottoms and ceilings (you might reactivate some)
+    added new pattern: globe
+    added option to disable StreetLamps on error
+    update for new RB (1k)
+
+Version v0.5.3
+
+    changed POWERMODE events
+
+Version v0.5.2.1
+
+    quickfix of bottoms
+
+Version v0.5.2
+
+    fixed loading of lamps when there are a lot of one type (several kb)
+
+Version v0.5.1
+
+    fixed thread safety (that's hard to debug, sorry)
+
+Version v0.5
+
+    fixed thread safety (that's hard to debug, sorry)
+
+Version v0.5
+
+    added new pattern: bottom
+    added new pattern: sconce
+    moved lamplist to config.yml
+    added more options in the config
+    thread safety, yeha :)
+    pendants now can be extended :) (up to four bulbs)
+
+Version v0.4.4
+
+    fixed weathermode (again)
+
+Version v0.4.3
+
+    added new pattern: ceiling
+    air and glas no longer are a valid base
+
+Version v0.4.2
+
+    fixed weathermode
+    added configurable building tool
+
+Version v0.4.1
+
+    fixed lamp patern (depth of pendants)
+
+Version v0.4
+
+    added new pattern: pendant
+    API for easy creation of additional lamp patterns (plugin-like feature in the future)
+    bulb material is configurable
+    enabled lamps are configurable
+    converts old config/lamps into new format
+
+    PLUGIN/API: 1350 LOC
+    POLE: 82
+    PENDANT: 415
+
+Version 0.3.3
+
+    fixed repeaters
+    new RB: 935
+
+Version 0.3.2
+
+    recoded powerdetection, turns the lamps on/off instantly
+
+Version 0.3.1
+
+    forgot to check if the rain stops ("recoded a lot")
+
+Version 0.3
+
+    release of my first plugin
+    recoded a lot

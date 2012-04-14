@@ -1,0 +1,66 @@
+Config:
+    modes:
+        pureBulb:
+            enabled: false
+        daytime:
+            enabled: true
+            night_start: 12500
+            night_end: 22500
+        manually: true
+        weather: true
+        power:
+            enabled: true
+            detectRepeater: false
+            removeTorchAfterConstruction: false
+        cluster:
+            enabled: true
+            size: 20
+        controller:
+            enabled: true
+    material:
+        bulb_on: 89
+        tool: 76
+        bulb_off: 20
+    version: 8
+Lamps:
+    pole:
+        enabled: true
+        height:
+            min: 1
+            max: 6
+    bottom:
+        enabled: true
+    pendant:
+        enabled: true
+        height:
+            min: 1
+            max: 6
+        width:
+            min: 1
+            max: 4
+        depth:
+            min: 1
+            max: 2
+    ceiling:
+        enabled: true
+        height:
+            min: 0
+            max: 3
+    sconce:
+        enabled: true
+        width:
+            min: 0
+            max: 3
+    globe:
+        enabled: true
+        height:
+            min: 1
+            max: 6
+    tube:
+        enabled: true
+        height:
+            min: 1
+            max: 6
+        width:
+            min: 3
+            max: 6
